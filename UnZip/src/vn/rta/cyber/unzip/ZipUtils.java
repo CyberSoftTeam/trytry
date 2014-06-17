@@ -25,6 +25,7 @@ public class ZipUtils {
 	public static boolean unpackZip(String sourcePath, String destinationPath, String zipname)
 	{       
 
+		//van thi change here
 		if(destinationPath.equals("")){
 			destinationPath=sourcePath;
 		}
