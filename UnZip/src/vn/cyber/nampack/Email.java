@@ -3,7 +3,7 @@ package vn.cyber.nampack;
 public class Email {
 	String name,mail;
 
-	public User(String name, String mail) {
+	public Email(String name, String mail) {
 		super();
 		this.name = name;
 		this.mail = mail;
