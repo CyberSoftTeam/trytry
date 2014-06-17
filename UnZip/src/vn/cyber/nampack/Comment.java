@@ -2,11 +2,18 @@ package vn.cyber.nampack;
 
 public class Comment {
  String text;
+ String mail= "vanthi";
 
-public Comment(String text) {
+public Comment() {
+	// TODO Auto-generated constructor stub
+}
+
+public Comment(String text, String mail) {
 	super();
 	this.text = text;
+	this.mail = mail;
 }
+
 
 public String getText() {
 	return text;
