@@ -2,6 +2,16 @@ package vn.cyber.nampack;
 
 public class Comment {
  String text;
+ String name;
+ 
+
+public String getName() {
+	return name;
+}
+
+public void setName(String name) {
+	this.name = name;
+}
 
 public Comment(String text) {
 	super();
